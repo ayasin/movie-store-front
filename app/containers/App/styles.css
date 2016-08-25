@@ -1,0 +1,10 @@
+/**
+ * styles.css
+ *
+ * App container styles
+ */
+
+.container {
+  display: block;
+  height: 100vh;
+}
