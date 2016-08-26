@@ -11,7 +11,7 @@ const selectMovieStoreHomeViewerDomain = () => state => state.get('MovieStoreHom
 
 
 /**
- * Default selector used by FacultyGradeViewer
+ * Default selector used by MovieStoreHomeViewer
  */
 
 const selectMovieStoreHomeViewer = () => createSelector(

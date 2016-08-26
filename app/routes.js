@@ -30,7 +30,7 @@ export default function createRoutes(store) {
         const renderRoute = loadModule(cb);
 
         importModules.then(([component, reducer, sagas]) => {
-          injectReducer('movieStoreHomeViewer', reducer.default);
+          injectReducer('MovieStoreHomeViewer', reducer.default);
           injectSagas(sagas.default);
           renderRoute(component);
         });
