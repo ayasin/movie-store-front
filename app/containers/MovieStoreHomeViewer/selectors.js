@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 
 /**
- * Direct selector to the facultyGradeViewer state domain
+ * Direct selector to the MovieStoreHomeViewer state domain
  */
 const selectMovieStoreHomeViewerDomain = () => state => state.get('MovieStoreHomeViewer');
 

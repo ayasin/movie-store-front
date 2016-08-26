@@ -37,11 +37,11 @@ function routeReducer(state = routeInitialState, action) {
  * Creates the main reducer with the asynchronously loaded ones
  */
 
-import movieStoreHomeViewerReducer from './containers/MovieStoreHomeViewer/reducer';
+// import movieStoreHomeViewerReducer from './containers/MovieStoreHomeViewer/reducer';
 export default function createReducer(asyncReducers) {
   return combineReducers({
     route: routeReducer,
-    MovieStoreHomeViewer: movieStoreHomeViewerReducer,
+    // MovieStoreHomeViewer: movieStoreHomeViewerReducer,
     ...asyncReducers,
   });
 }

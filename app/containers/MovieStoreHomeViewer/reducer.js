@@ -6,7 +6,7 @@ import {
 const initialState = fromJS({
 });
 
-function facultyGradeViewerReducer(state = initialState, action) {
+function movieStoreHomeViewerReducer(state = initialState, action) {
   switch (action.type) {
     case DEFAULT_ACTION:
       return state;
@@ -15,4 +15,4 @@ function facultyGradeViewerReducer(state = initialState, action) {
   }
 }
 
-export default facultyGradeViewerReducer;
+export default movieStoreHomeViewerReducer;
